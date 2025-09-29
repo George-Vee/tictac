@@ -1,0 +1,267 @@
+<!-- VEE EMBED: single wrapped drop-in (no external deps besides Font Awesome) -->
+<link rel="stylesheet" href="assets/vee-embed.min.css">
+<link rel="stylesheet" href="assets/vee-zd-hide.css">
+<div class="vee-embed" id="veeEmbed">
+  <div class="ve-wrap">
+    <!-- DESKTOP SIDEBAR -->
+    <nav class="ve-sb" id="veSidebar" aria-label="Primary">
+      <button class="ve-tog" id="veToggle" aria-expanded="false" aria-label="Expand menu"><i class="fa-solid fa-angles-right"></i></button>
+
+      <section class="ve-cb" aria-live="polite">
+        <h2 class="ve-cb-title">Weekly Cashback</h2>
+        <div class="ve-cb-grid" id="veCb" role="timer" aria-atomic="true">
+          <div class="ve-cb-chip"><span data-unit="d">0</span><b>Days</b></div>
+          <div class="ve-cb-chip"><span data-unit="h">00</span><b>Hrs</b></div>
+          <div class="ve-cb-chip"><span data-unit="m">00</span><b>Min</b></div>
+          <div class="ve-cb-chip"><span data-unit="s">00</span><b>Sec</b></div>
+        </div>
+        <p class="ve-cb-note"><small>Fri 07:59 → Fri 07:59 • payout by 20:00 Fri</small></p>
+      </section>
+
+      <div class="ve-list" role="group">
+        <a href="#" class="ve-link ve-active" data-page="home" aria-current="page"><i class="fa-solid fa-house"></i><span class="ve-txt">Home</span></a>
+        <a href="#" class="ve-link" data-page="promotions"><i class="fa-solid fa-tags"></i><span class="ve-txt">Promos</span></a>
+        <a href="/my-account/wallet-history" class="ve-link" data-page="wallet"><i class="fa-solid fa-wallet"></i><span class="ve-txt">Wallet</span></a>
+        <a href="#" class="ve-link" data-page="chat"><i class="fa-solid fa-comments"></i><span class="ve-txt">Chat</span></a>
+        <a href="/my-account/my-details" class="ve-link" data-page="settings"><i class="fa-solid fa-gear"></i><span class="ve-txt">Settings</span></a>
+      </div>
+
+      <div class="ve-apps" role="group" aria-label="Download apps">
+        <a class="ve-store" href="#" aria-label="Google Play" title="Google Play"><i class="fa-brands fa-google-play"></i><span>Google Play</span></a>
+        <a class="ve-store" href="#" aria-label="App Store" title="App Store"><i class="fa-brands fa-apple"></i><span>App Store</span></a>
+      </div>
+    </nav>
+
+    <!-- MAIN -->
+    <main class="ve-main">
+      <!-- HOME -->
+      <section class="ve-page is-active" id="ve-home">
+        <div class="ve-container"><div class="ve-site">
+
+          <!-- HERO -->
+          <div class="ve-hero" id="ve-hero">
+            <div class="ve-slides">
+              <div class="ve-slide">
+                <a href="https://tictacbets.co.za/app/en-ZA/page/Promotions/deposit_bonus_&_free_spins">
+                  <img class="ve-img-d" src="https://img.tictacbets.co.za/GameTiles/RotatingBanners/100depositbonus.webp" alt="100% Deposit Bonus">
+                  <img class="ve-img-m" src="https://img.tictacbets.co.za/GameTiles/RotatingBanners/Mobile/tictacbets-mobile-100%25-deposit-bonus-banner-1600x500.webp" alt="100% Deposit Bonus Mobile">
+                </a>
+              </div>
+              <div class="ve-slide is-active">
+                <a href="https://tictacbets.co.za/page/Promotions/azeeche">
+                  <img class="ve-img-d" src="https://img.tictacbets.co.za/SlideshowBanners/tictacbets-web-azeeche-tournament-banner-1600x500.webp" alt="Azeeche">
+                  <img class="ve-img-m" src="https://img.tictacbets.co.za/SlideshowBanners/Mobile/tictacbets-mobile-azeeche-tournament-banner-1600x500.webp" alt="Azeeche Mobile">
+                </a>
+              </div>
+              <div class="ve-slide">
+                <a href="https://tictacbets.co.za/app/en-ZA/page/Promotions/drop_and_win_promo">
+                  <img class="ve-img-d" src="https://img.tictacbets.co.za/SlideshowBanners/tictacbets-web-drops-and-wins.webp" alt="Drops & Wins">
+                  <img class="ve-img-m" src="https://img.tictacbets.co.za/GameTiles/RotatingBanners/Mobile/tictacbets-mobile-drops-and-wins%20(2).webp" alt="Drops & Wins Mobile">
+                </a>
+              </div>
+              <div class="ve-slide">
+                <a href="https://tictacbets.co.za/page/Promotions/spinoleague">
+                  <img class="ve-img-d" src="https://img.tictacbets.co.za/SlideshowBanners/tictacbets-web-spinoleague-banner-1600x500.webp" alt="Spinoleague">
+                  <img class="ve-img-m" src="https://img.tictacbets.co.za/SlideshowBanners/Mobile/tictacbets-mobile-spinoleague-banner-1600x500.webp" alt="Spinoleague Mobile">
+                </a>
+              </div>
+              <div class="ve-slide">
+                <a href="https://tictacbets.co.za/app/en-ZA/page/Promotions/weekly_cashback">
+                  <img class="ve-img-d" src="https://img.tictacbets.co.za/SlideshowBanners/tictacbets-web-weekly-cashback-banner-1600x500.webp" alt="Weekly Cashback">
+                  <img class="ve-img-m" src="https://img.tictacbets.co.za/SlideshowBanners/Mobile/tictacbets-mobile-weekly-cashback-banner-1600x500.webp" alt="Weekly Cashback Mobile">
+                </a>
+              </div>
+            </div>
+            <div class="ve-dots" id="ve-dots"></div>
+            <button class="ve-navbtn ve-prev" aria-label="Previous slide">‹</button>
+            <button class="ve-navbtn ve-next" aria-label="Next slide">›</button>
+          </div>
+
+          <!-- WINNERS -->
+          <div class="ve-win" id="ve-win">
+            <div class="ve-wincont">
+              <div>🏆 <b>TOP WINNERS</b></div>
+              <div><div>BIG BASS CRASH</div><div>★★★★★★9571 | R59,000.00</div></div>
+              <div><div>SUGAR RUSH</div><div>★★★★★★9571 | R39,000.00</div></div>
+              <div><div>GATES OF OLYMPUS</div><div>★★★★★★9571 | R29,000.00</div></div>
+              <div><div>BIG BASS CRASH</div><div>★★★★★★9571 | R19,000.00</div></div>
+              <div><div>SUGAR RUSH</div><div>★★★★★★9571 | R39,000.00</div></div>
+              <div><div>GATES OF OLYMPUS</div><div>★★★★★★9571 | R29,000.00</div></div>
+            </div>
+          </div>
+
+          <!-- TOP 10 -->
+          <section class="ve-section">
+            <div class="ve-head">
+              <h2 class="ve-title"><span>TOP 10</span>GAMES</h2>
+              <a href="https://tictacbets.co.za/casino/slots/top-instant-games" class="ve-see">SEE ALL</a>
+            </div>
+            <div class="ve-row" tabindex="0" aria-label="Top 10 games">
+              <a href="https://tictacbets.co.za/casino/slots/5402/game/pragmatic_vs20olympgold" class="ve-card"><img src="https://img.tictacbets.co.za/GameTiles/Top10Games/GOOS-no1-Top-10-games-tiles.webp" alt="GOOS"></a>
+              <a href="https://tictacbets.co.za/casino/slots/8009/game/vs5joker" class="ve-card"><img src="https://img.tictacbets.co.za/GameTiles/Top10Games/JJ-no2-Top-10-games-tiles.webp" alt="JJ"></a>
+              <a href="https://tictacbets.co.za/casino/slots/top-instant-games" class="ve-card"><img src="https://img.tictacbets.co.za/GameTiles/Top10Games/100HP-no3-Top-10-games-tiles.webp" alt=""></a>
+              <a href="https://tictacbets.co.za/casino/slots/top-instant-games" class="ve-card"><img src="https://img.tictacbets.co.za/GameTiles/Top10Games/CT-no4-Top-10-games-tiles.webp" alt=""></a>
+              <a href="https://tictacbets.co.za/casino/slots/top-instant-games" class="ve-card"><img src="https://img.tictacbets.co.za/GameTiles/Top10Games/ES3-no5-Top-10-games-tiles.webp" alt=""></a>
+              <a href="https://tictacbets.co.za/casino/slots/top-instant-games" class="ve-card"><img src="https://img.tictacbets.co.za/GameTiles/Top10Games/AWHF-no6-Top-10-games-tiles.webp" alt=""></a>
+              <a href="https://tictacbets.co.za/casino/slots/top-instant-games" class="ve-card"><img src="https://img.tictacbets.co.za/GameTiles/Top10Games/CV-no7-Top-10-games-tiles.webp" alt=""></a>
+              <a href="https://tictacbets.co.za/casino/slots/top-instant-games" class="ve-card"><img src="https://img.tictacbets.co.za/GameTiles/Top10Games/HF-no8-Top-10-games-tiles.webp" alt=""></a>
+              <a href="https://tictacbets.co.za/casino/slots/top-instant-games" class="ve-card"><img src="https://img.tictacbets.co.za/GameTiles/Top10Games/ST-no9-Top-10-games-tiles.webp" alt=""></a>
+              <a href="https://tictacbets.co.za/casino/slots/top-instant-games" class="ve-card"><img src="https://img.tictacbets.co.za/GameTiles/Top10Games/243CF-no10-Top-10-games-tiles.webp" alt=""></a>
+            </div>
+          </section>
+
+          <!-- NEW GAMES -->
+          <section class="ve-section">
+            <div class="ve-head">
+              <h2 class="ve-title"><span>NEW</span>GAMES</h2>
+              <a href="https://tictacbets.co.za/casino/slots/new-games" class="ve-see">SEE ALL</a>
+            </div>
+            <div class="ve-row" tabindex="0" aria-label="New games">
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/new-games"><img src="https://img.tictacbets.co.za/GameTiles/NewGames/GOO1000.png" alt="GOO 1000"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/new-games"><img src="https://img.tictacbets.co.za/GameTiles/NewGames/GOOSuperScatter.png" alt="GOO Super Scatter"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/new-games"><img src="https://img.tictacbets.co.za/GameTiles/NewGames/HighFlyer.png" alt="High Flyer"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/new-games"><img src="https://img.tictacbets.co.za/GameTiles/NewGames/SugarRush.png" alt="Sugar Rush"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/new-games"><img src="https://img.tictacbets.co.za/GameTiles/NewGames/BigBassBonanza1000.png" alt="Big Bass Bonanza 1000"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/new-games"><img src="https://img.tictacbets.co.za/GameTiles/NewGames/AthenasWisdom1000.png" alt="Athena's Wisdom 1000"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/new-games"><img src="https://img.tictacbets.co.za/GameTiles/NewGames/StarlightPrincess1000.png" alt="Starlight Princess 1000"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/new-games"><img src="https://img.tictacbets.co.za/GameTiles/NewGames/SpinnScore.png" alt="Spinn Score"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/new-games"><img src="https://img.tictacbets.co.za/GameTiles/NewGames/LuckyTiger1000.png" alt="Lucky Tiger 1000"></a>
+            </div>
+          </section>
+
+          <!-- CRASH GAMES -->
+          <section class="ve-section">
+            <div class="ve-head">
+              <h2 class="ve-title"><span>CRASH</span>GAMES</h2>
+              <a href="https://tictacbets.co.za/casino/slots/new-games" class="ve-see">SEE ALL</a>
+            </div>
+            <div class="ve-row" tabindex="0" aria-label="Crash games">
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/new-games"><img src="https://img.tictacbets.co.za/GameTiles/CrashGames/Aviator.png" alt="Aviator"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/new-games"><img src="https://img.tictacbets.co.za/GameTiles/CrashGames/BigBassCrash.png" alt="Big Bass Crash"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/new-games"><img src="https://img.tictacbets.co.za/GameTiles/CrashGames/HighFlyer.png" alt="High Flyer"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/new-games"><img src="https://img.tictacbets.co.za/GameTiles/CrashGames/Spaceman.png" alt="Spaceman"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/new-games"><img src="https://img.tictacbets.co.za/GameTiles/CrashGames/Skyward.png" alt="Skyward"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/new-games"><img src="https://img.tictacbets.co.za/GameTiles/CrashGames/ToTheMoon3.png" alt="To The Moon 3"></a>
+            </div>
+          </section>
+
+          <!-- SPORTS -->
+          <section class="ve-section">
+            <div class="ve-head">
+              <h2 class="ve-title"><span>SPORTS</span></h2>
+              <a href="https://tictacbets.co.za/sportsbook" class="ve-see">SEE ALL</a>
+            </div>
+            <div class="ve-row" tabindex="0" aria-label="Sports">
+              <a class="ve-card" href="https://tictacbets.co.za/sportsbook/match/football"><img src="https://img.tictacbets.co.za/GameTiles/Sports-Tile/Soccer.png" alt="Soccer"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/sportsbook/match/tennis"><img src="https://img.tictacbets.co.za/GameTiles/Sports-Tile/Tennis.png" alt="Tennis"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/sportsbook/live-match"><img src="https://img.tictacbets.co.za/GameTiles/Sports-Tile/LiveinPlay.png" alt="Live"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/sportsbook/match/rugby"><img src="https://img.tictacbets.co.za/GameTiles/Sports-Tile/Rugby.png" alt="Rugby"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/sportsbook/match/mma"><img src="https://img.tictacbets.co.za/GameTiles/Sports-Tile/MMA.png" alt="MMA"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/sportsbook/match/f1"><img src="https://img.tictacbets.co.za/GameTiles/Sports-Tile/tictacbets-f1-poster-408x546.png" alt="F1"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/sportsbook/match/cricket"><img src="https://img.tictacbets.co.za/GameTiles/Sports-Tile/tictacbets-cricket-poster-408x546.png" alt="Cricket"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/sportsbook/match/boxing"><img src="https://img.tictacbets.co.za/GameTiles/Sports-Tile/tictacbets-boxing-poster-408x546.png" alt="Boxing"></a>
+            </div>
+          </section>
+
+          <!-- PROVIDERS -->
+          <section class="ve-section">
+            <div class="ve-head">
+              <h2 class="ve-title"><span>GAME PROVIDERS</span></h2>
+              <a href="https://tictacbets.co.za/casino/slots/providers" class="ve-see">SEE ALL</a>
+            </div>
+            <div class="ve-row ve-logos" tabindex="0" aria-label="Providers">
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/providers/spribe"><img src="https://img.tictacbets.co.za/GameTiles/ProvidersTile/Spribe.png" alt="Spribe"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/providers/pragmatic"><img src="https://img.tictacbets.co.za/GameTiles/ProvidersTile/Pragmatic.png" alt="Pragmatic"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/providers/evolution"><img src="https://img.tictacbets.co.za/GameTiles/ProvidersTile/Evolution.png" alt="Evolution"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/providers/betgames-iframe"><img src="https://img.tictacbets.co.za/GameTiles/ProvidersTile/Betgames.png" alt="Betgames"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/providers/ygg"><img src="https://img.tictacbets.co.za/GameTiles/ProvidersTile/Yggdrasil.png" alt="Yggdrasil"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/providers/agtslots"><img src="https://img.tictacbets.co.za/GameTiles/ProvidersTile/Aardvark.png" alt="Aardvark"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/providers/amatic"><img src="https://img.tictacbets.co.za/GameTiles/ProvidersTile/Amatic.png" alt="Amatic"></a>
+              <a class="ve-card" href="https://img.tictacbets.co.za/GameTiles/ProvidersTile/GluckGames.png"><img src="https://img.tictacbets.co.za/GameTiles/ProvidersTile/GluckGames.png" alt="GluckGames"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/providers/netent"><img src="https://img.tictacbets.co.za/GameTiles/ProvidersTile/NetEnt.png" alt="NetEnt"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/providers/tomhorn"><img src="https://img.tictacbets.co.za/GameTiles/ProvidersTile/TomHorn.png" alt="Tom Horn"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/providers/redtiger"><img src="https://img.tictacbets.co.za/GameTiles/ProvidersTile/RedTiger.png" alt="RedTiger"></a>
+              <a class="ve-card" href="https://img.tictacbets.co.za/GameTiles/ProvidersTile/agt2.png"><img src="https://img.tictacbets.co.za/GameTiles/ProvidersTile/agt2.png" alt="AGT"></a>
+              <a class="ve-card" href="https://img.tictacbets.co.za/GameTiles/ProvidersTile/egt1.png"><img src="https://img.tictacbets.co.za/GameTiles/ProvidersTile/egt1.png" alt="EGT"></a>
+              <a class="ve-card" href="https://tictacbets.co.za/casino/slots/providers/spinomenal"><img src="https://img.tictacbets.co.za/GameTiles/ProvidersTile/Spinominal2.png" alt="Spinominal"></a>
+            </div>
+          </section>
+
+        </div></div>
+      </section>
+
+      <!-- PROMOTIONS (grid, no scrollers) -->
+      <section class="ve-page" id="ve-promotions">
+        <div class="ve-container"><div class="ve-site">
+
+          <section class="ve-section">
+            <div class="ve-head">
+              <h2 class="ve-title"><span>NEW CUSTOMER</span>OFFERINGS</h2>
+              <a class="ve-see" href="https://tictacbets.co.za/app/en-ZA/page/Promotions">SEE ALL</a>
+            </div>
+            <div class="ve-grid" aria-label="New customer promotions">
+              <a class="ve-card ve-promo" href="https://tictacbets.co.za/app/en-ZA/page/Promotions/deposit_bonus_&_free_spins">
+                <img src="https://img.tictacbets.co.za/Banners/Promotions_Page_FirstDeposit_Thumbnail.webp" alt="100% First Deposit Bonus">
+              </a>
+              <a class="ve-card ve-promo" href="https://tictacbets.co.za/app/en-ZA/page/Promotions/refer_a_friend">
+                <img src="https://raw.githubusercontent.com/Tictacbets/promotions-images/main/Refer%20a%20Friend.png" alt="Refer-a-Friend">
+              </a>
+              <a class="ve-card ve-promo" href="https://tictacbets.co.za/app/en-ZA/page/Promotions/welcome-bonus">
+                <img src="https://img.tictacbets.co.za/Promotions/25FS_Thumbnail.jpg" alt="Welcome Bonus">
+              </a>
+            </div>
+          </section>
+
+          <section class="ve-section">
+            <div class="ve-head">
+              <h2 class="ve-title"><span>EXISTING CUSTOMER</span>OFFERINGS</h2>
+              <a class="ve-see" href="https://tictacbets.co.za/app/en-ZA/page/Promotions">SEE ALL</a>
+            </div>
+            <div class="ve-grid" aria-label="Existing customer promotions">
+              <a class="ve-card ve-promo" href="https://tictacbets.co.za/page/promotions/sizzling-september">
+                <img src="https://img.tictacbets.co.za/Promotions/Sizzlingseptember_Thumbnail.jpg" alt="Sizzling September">
+              </a>
+              <a class="ve-card ve-promo" href="https://tictacbets.co.za/page/Promotions/bells-of-fortune">
+                <img src="https://img.tictacbets.co.za/Promotions/Thumbnail_BELLS_OF_FORTUNE.jpg" alt="Bells Of Fortune">
+              </a>
+              <a class="ve-card ve-promo" href="https://tictacbets.co.za/page/Promotions/azeeche">
+                <img src="https://raw.githubusercontent.com/Tictacbets/promotions-images/refs/heads/main/azeeche-thumbnail.jpg" alt="Azeeche">
+              </a>
+              <a class="ve-card ve-promo" href="https://tictacbets.co.za/page/Promotions/galactic-gamble">
+                <img src="https://img.tictacbets.co.za/Promotions/galactic_gamble_thumbnail.jpg" alt="Galactic Gamble">
+              </a>
+              <a class="ve-card ve-promo" href="https://tictacbets.co.za/app/en-ZA/page/Promotions/drop_and_win_promo">
+                <img src="https://raw.githubusercontent.com/Tictacbets/promotions-images/refs/heads/main/drops-and-wins-thumbnail.jpg" alt="Drops & Wins">
+              </a>
+              <a class="ve-card ve-promo" href="https://tictacbets.co.za/page/Promotions/spinoleague">
+                <img src="https://raw.githubusercontent.com/Tictacbets/promotions-images/refs/heads/main/spinoleague-thumbnail.jpg" alt="Spinoleague">
+              </a>
+              <a class="ve-card ve-promo" href="https://tictacbets.co.za/app/en-ZA/page/Promotions/one_leg_out_bonus">
+                <img src="https://raw.githubusercontent.com/Tictacbets/promotions-images/main/MicrosoftTeams-image%20(110).png" alt="One-Leg Out">
+              </a>
+              <a class="ve-card ve-promo" href="https://tictacbets.co.za/app/en-ZA/page/Promotions/weekly_cashback">
+                <img src="https://raw.githubusercontent.com/Tictacbets/promotions-images/main/Weekly%20Cashback.png" alt="10% Cashback">
+              </a>
+              <a class="ve-card ve-promo" href="https://tictacbets.co.za/app/en-ZA/page/Promotions/birthday_bonus">
+                <img src="https://raw.githubusercontent.com/Tictacbets/promotions-images/main/Birthday-Bonus-stroke.png" alt="Birthday Bonus">
+              </a>
+            </div>
+          </section>
+
+        </div></div>
+      </section>
+    </main>
+
+    <!-- MOBILE BOTTOM BAR -->
+    <nav class="ve-bar" aria-label="Primary mobile">
+      <a href="#" class="ve-m ve-active" data-page="home" aria-current="page" aria-label="Home"><i class="fa-solid fa-house"></i></a>
+      <a href="#" class="ve-m" data-page="promotions" aria-label="Promotions"><i class="fa-solid fa-tags"></i></a>
+      <a href="/my-account/wallet-history" class="ve-m" aria-label="Wallet"><i class="fa-solid fa-wallet"></i></a>
+      <a href="#" class="ve-m" data-page="chat" aria-label="Chat"><i class="fa-solid fa-comments"></i></a>
+      <a href="/my-account/my-details" class="ve-m" aria-label="Settings"><i class="fa-solid fa-gear"></i></a>
+    </nav>
+  </div>
+</div>
+
+<script src="assets/vee-embed.min.js"></script>
+<script src="assets/vee-zendesk-bridge.min.js"></script>
